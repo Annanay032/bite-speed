@@ -1,0 +1,102 @@
+.save-div {
+  height: 2.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  height: 3rem;
+  background: beige;
+}
+
+.save-button {
+  padding: 0.125rem;
+  margin: 0.5rem 4rem;
+  width: 11.125rem;
+  border-radius: 0.25rem;
+  border: 1px solid cadetblue;
+  background: none;
+  color: cornflowerblue;
+}
+.main-flow-container {
+  flex-direction: row;
+  display: flex;
+  height: 87vh;
+}
+
+.main-flow-container aside {
+  border-right: 1px solid #eee;
+  padding: 0.1rem 0.8rem;
+  font-size: 1rem;
+  background: #fcfcfc;
+  width: 30vh;
+  border-left: 1px solid #c9bdbd;
+}
+
+.main-flow-container aside > * {
+  /* height: 4rem; */
+  margin-bottom: 0.813rem;
+  cursor: grab;
+}
+
+.main-flow-container aside .description {
+  margin-bottom: 0.813rem;
+}
+
+.main-flow-container .reactflow-container {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.updatenode__controls {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.updatenode__controls label {
+  display: block;
+}
+
+.updatenode__bglabel {
+  margin-top: 10px;
+}
+
+.updatenode__checkboxwrapper {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.updatenode__header {
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 108%;
+  margin-left: -0.8rem;
+  background: beige;
+  border-bottom: 1px solid #c9bdbd;
+
+}
+
+.node__text__Area {
+  height: 4rem;
+  padding: 0.5rem;
+}
+
+
+@media screen and (min-width: 768px) {
+  .main-flow-container {
+    flex-direction: row;
+  }
+
+  .main-flow-container aside {
+    width: 25%;
+    max-width: 280px;
+  }
+}
+
+.react-flow__panel {
+  display: none;
+  }

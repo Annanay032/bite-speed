@@ -1,0 +1,27 @@
+
+  .selected__node__content {
+    padding: 0.5rem 0.3rem;
+    display:flex;
+    align-items: center;
+    width: 12rem;
+  }
+
+  .selected__node__heading {
+    position: relative;
+    padding: 0.5rem 2rem;
+    flex-grow: 1;
+    background-color: #eee;
+    border-radius: 0.85rem 0.85rem 0rem 0rem;
+    background-color: #08c9bd;
+  }
+
+  .selected__node {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border: 0px solid #bbb;
+    font-size: 10pt;
+    border-radius: 10px
+  }
